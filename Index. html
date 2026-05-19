@@ -1,0 +1,39 @@
+index<!DOCTYPE html>
+<html>
+<head>
+<title>Meraj & Awais Wedding</title>
+<style>
+body{
+background:black;
+color:gold;
+font-family:serif;
+text-align:center;
+padding:40px;
+}
+.box{
+border:1px solid gold;
+padding:20px;
+border-radius:20px;
+}
+</style>
+</head>
+<body>
+<div class="box">
+<h3>بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيم</h3>
+<h1>✨ TAP TO OPEN ✨</h1>
+
+<h2>👰 DR. MERAJ SULTANA (B.D.S)</h2>
+<h2>🤵 MIRZA AWAIS BAIG (A.M.E)</h2>
+
+<p>🌼 10 June — Sanchak</p>
+<p>💛 11 June — Mehndi</p>
+<p>💍 12 June — Nikah</p>
+<p>✨ 13 June — Valima / Reception</p>
+
+<p>📍 SARA CONVENTION<br>
+Daulat Colony, Janaki Nagar, Tolichowki</p>
+
+<p>🤍 Your presence and duas will make our joy complete</p>
+</div>
+</body>
+</html>
