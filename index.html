@@ -1,39 +1,98 @@
-index<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Meraj & Awais Wedding</title>
+
 <style>
 body{
-background:black;
-color:gold;
-font-family:serif;
+margin:0;
+background:#000;
+color:#d4af37;
+font-family:Georgia,serif;
 text-align:center;
-padding:40px;
+overflow-x:hidden;
 }
-.box{
-border:1px solid gold;
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
 padding:20px;
-border-radius:20px;
+background:linear-gradient(black,#0a0a0a);
+}
+.tap{
+padding:15px 30px;
+border:1px solid gold;
+border-radius:40px;
+margin-top:20px;
+animation:pulse 2s infinite;
+}
+.card{
+margin:25px;
+padding:20px;
+border:1px solid #d4af37;
+border-radius:25px;
+background:#111;
+}
+.fade{
+animation:fadeUp 1.5s;
+}
+@keyframes pulse{
+50%{transform:scale(1.05)}
+}
+@keyframes fadeUp{
+from{opacity:0;transform:translateY(30px)}
+to{opacity:1}
+}
+.gold{
+position:fixed;
+font-size:20px;
+animation:fall 10s linear infinite;
+}
+@keyframes fall{
+from{transform:translateY(-100px)}
+to{transform:translateY(100vh)}
 }
 </style>
 </head>
+
 <body>
-<div class="box">
+
+<div class="gold" style="left:10%">✨</div>
+<div class="gold" style="left:30%;animation-delay:2s">✨</div>
+<div class="gold" style="left:70%;animation-delay:4s">🌙</div>
+<div class="gold" style="left:90%;animation-delay:1s">✨</div>
+
+<div class="hero">
 <h3>بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيم</h3>
-<h1>✨ TAP TO OPEN ✨</h1>
 
-<h2>👰 DR. MERAJ SULTANA (B.D.S)</h2>
-<h2>🤵 MIRZA AWAIS BAIG (A.M.E)</h2>
+<h1>👰 DR. MERAJ SULTANA</h1>
+<h2>🤵 MIRZA AWAIS BAIG</h2>
 
+<div class="tap">✨ TAP TO OPEN ✨</div>
+</div>
+
+<div class="card fade">
+<h2>Wedding Events</h2>
 <p>🌼 10 June — Sanchak</p>
 <p>💛 11 June — Mehndi</p>
 <p>💍 12 June — Nikah</p>
 <p>✨ 13 June — Valima / Reception</p>
-
-<p>📍 SARA CONVENTION<br>
-Daulat Colony, Janaki Nagar, Tolichowki</p>
-
-<p>🤍 Your presence and duas will make our joy complete</p>
 </div>
+
+<div class="card fade">
+<h2>📍 Venue</h2>
+<p>SARA CONVENTION</p>
+<p>Daulat Colony, Janaki Nagar, Tolichowki</p>
+</div>
+
+<div class="card fade">
+<h2>🤍 Message</h2>
+<p>Your presence and duas will make our joy complete</p>
+</div>
+
 </body>
 </html>
